@@ -1,6 +1,4 @@
-FROM centos/systemd
-
-ENV container docker
+FROM centos/system
 
 ADD https://packages.microsoft.com/config/rhel/7/prod.repo /etc/yum.repos.d/mssql-release.repo
 
