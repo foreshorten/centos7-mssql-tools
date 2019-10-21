@@ -6,9 +6,11 @@ This Docker image contains the following utilities from mssql-tools (*msodbcsql1
 * **BCP**    - Bulk Copy Program for Microsoft SQL Server (Version: 17.1.0000.1)
 > Copyright (c) 2012 Microsoft. All rights reserved.
 
-## RUN
+## Example:
 
-    docker run -it centos7-mssql-tools sqlcmd -?
+    `docker run -it centos7-mssql-tools sqlcmd -?`  
+    or 
+    `docker run -it centos7-mssql-tools bcp -?`
 
 
 Command Usage
